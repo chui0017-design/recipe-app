@@ -53,7 +53,7 @@ export default function Home() {
 
         <div className="w-full max-w-[2000px] mx-auto px-[30px] py-[50px] md:px-[50px] lg:px-[80px] lg:py-[101px] xl:px-[131px]">
           <div className="max-w-[1000px] mx-auto pb-[30px] text-center space-y-[20px]">
-            <p className="font-[bogart] font-bold text-[30px] text-[#3B58CB]">Amelia's Work</p>
+            <p className="font-[bogart] font-bold text-[30px] text-[#3B58CB]">Amelia&apos;s Work</p>
           </div>
 
           <div className="grid grid-cols-1 min-[1365px]:grid-cols-3">
