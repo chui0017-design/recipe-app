@@ -3,7 +3,7 @@ import Text from "./components/Text";
 import Card from "./components/Card";
 import ProfileCard from "./components/ProfileCard";
 import Bar from "./components/Bar";
-import Nav from "./components/Nav";
+import Nav from "./components/nav";
 import Link from "next/link";
 
 export default function Home() {
@@ -13,7 +13,7 @@ export default function Home() {
         <Bar />
         <Nav />
 
-        <h1> hihihihi </h1>
+        <h1> hihihihi 2222 </h1>
         
         <div className="max-w-[1512px] mx-auto px-[30px] py-[38px] md:px-[50px] lg:px-[80px] lg:py-[101px] xl:px-[131px]">
           <div className="
