@@ -3,7 +3,7 @@ import Text from "./components/Text";
 import Card from "./components/Card";
 import ProfileCard from "./components/ProfileCard";
 import Bar from "./components/Bar";
-import Nav from "./components/nav";
+import Nav from "./components/Nav";
 import Link from "next/link";
 
 export default function Home() {
@@ -12,6 +12,8 @@ export default function Home() {
       <div className="bg-[#FFFCF6]">
         <Bar />
         <Nav />
+
+        <h1> hihihihi </h1>
         
         <div className="max-w-[1512px] mx-auto px-[30px] py-[38px] md:px-[50px] lg:px-[80px] lg:py-[101px] xl:px-[131px]">
           <div className="
@@ -60,7 +62,7 @@ export default function Home() {
                 title={"Chicken Date Shop"} 
                 imgSrc={"/asset/CSD_Andrew.webp"}
                 imgAlt={"Amelia Dimoldenberg and Andrew Garfield"}
-                description_1={`Chicken Shop Date started in 2014 after Amelia Dimoldenberg turned her magazine column into a YouTube series, interviewing grime artists in chicken shops under the guise of “dates.” The awkward, comedic tone—enhanced through editing—made the show stand out, even if it wasn’t as widely popular as formats like Hot Ones. It gained credibility by connecting with music subcultures, and Dimoldenberg became known for her playful, often absurd questions that challenged her guests’ public image.`}
+                description_1={`Chicken Shop Date started in 2014 after Amelia Dimoldenberg turned her magazine column into a YouTube series, interviewing grime artists in chicken shops under the guise of dates. The awkward, comedic tone—enhanced through editing—made the show stand out, even if it wasn’t as widely popular as formats like Hot Ones. It gained credibility by connecting with music subcultures, and Dimoldenberg became known for her playful, often absurd questions that challenged her guests’ public image.`}
               />
             </Link>
 
